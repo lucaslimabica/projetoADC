@@ -1,10 +1,9 @@
-from get_int import *
-from get_float import *
+from utils import *
 
 # Atividade de ADC
 
 if __name__ == '__main__':
 	x = get_int("x: ")
-	i = get_int("i: ")
-	z = x*y
+	i = get_float("i: ")
+	z = x*i
 	print(z)
