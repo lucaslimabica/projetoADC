@@ -3,7 +3,10 @@ from utils import *
 # Atividade de ADC
 
 if __name__ == '__main__':
-	x = get_int("x: ")
-	i = get_float("i: ")
-	z = x*i
-	print(z)
+	aluno = get_string('Nome: ')
+	nota1 = get_float("Nota 1:")
+	nota2 = get_float("Nota 2:")
+
+	media = (nota1 + nota2) / 2
+
+	print(f'{aluno} - {media}')
